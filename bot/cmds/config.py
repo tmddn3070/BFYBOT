@@ -44,11 +44,11 @@ from discord.ext import commands
 
 # Owner Setting
 owner = [0]
-token = ""
-invlink = ""
+token = os.environ['BOT_TOKEN']
+invlink = os.environ['INVLINK']
 vernum = "v1.5.0"
-prefix = [""]
-botname = ""
+prefix = os.environ['prefix']
+botname = os.environ['BOT_NAME']
 hasmusic = False
 report = False
 botcolor = 0x008EFE
